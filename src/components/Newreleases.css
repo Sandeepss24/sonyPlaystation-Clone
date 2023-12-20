@@ -1,0 +1,75 @@
+.new-releases {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    padding: 30px;
+    gap: 10px;
+}
+.new-releases>h1 {
+    color: white;
+    font-size: 20px;
+    font-family: "SST Medium";
+
+}
+.new-releases-cards {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(6, minmax(180px, 1fr));
+    grid-auto-rows: 200px;
+    grid-gap: 20px;
+}
+.new-releases-card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    cursor: grab;
+    height: 220px;
+}
+.new-releases-card p {
+    color: white;
+    font-size: 16px;
+    font-family: "SST Light";
+    text-align: center;
+    align-self: flex-start;
+    height: 50px;
+}
+.new-releases-card img {
+    width: 100%;
+    max-width: 180px;
+    height: 170px;
+    transition: all 0.5s ease-in-out;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(255, 255, 255, 0.2);
+}
+.new-releases-card img:hover {
+    transform: scale(1.02);
+}
+
+@media screen and (max-width: 1200px) {
+    .new-releases-cards {
+        grid-template-columns: repeat(4, minmax(180px, 1fr));
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .new-releases-cards {
+        grid-template-columns: repeat(3, minmax(180px, 1fr));
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .new-releases-cards {
+        grid-template-columns: repeat(2, minmax(180px, 1fr));
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .new-releases-cards {
+        grid-template-columns: repeat(1, minmax(180px, 1fr));
+    }
+}

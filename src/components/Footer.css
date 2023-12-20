@@ -1,0 +1,191 @@
+.footer-section {
+    width: 100%;
+    height: 100%;
+    background-color: #00439c;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 80px;
+}
+.footer-section-logo  {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    border-bottom: 1px solid #3d69b0;
+    align-items: center;
+    justify-content: flex-start;
+}
+.footer-section-logo-heading {
+    font-size: 50px;
+    color: white;
+    font-family: 'SST Light2';
+    
+}
+@media screen and (max-width : 600px) {
+    .footer-section-logo-heading {
+        font-size: 25px;
+    }
+}
+.footer-section-logo-content {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    border-bottom: 1px solid #3d69b0;
+    padding-bottom: 15px;
+    gap: 25px;
+}
+.footer-section-logo-content-left {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+.footer-section-logo-content {
+    color: white;
+    margin: 15px 0;
+}
+.footer-section-logo-content h2 {
+    font-family: "SST";
+    font-size: 17px;
+}
+.footer-section-logo-content p {
+    font-family: "SST Light";
+    font-size: 14px;
+    cursor: pointer;
+}
+.footer-section-logo-content p:hover {
+    color: rgb(211, 198, 198);
+}
+.footer-section-logo-content-one {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    gap: 7px;
+}
+.footer-section-logo-content-two {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    width: 200px;
+}
+.footer-section-logo-content-three {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    gap: 7px;
+}
+.footer-section-logo-content-right {
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 100%;
+    flex-direction: row;
+}
+.footer-section-logo-content-four {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    gap: 7px;
+}
+.footer-section-logo-content-five {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    gap: 7px;
+}
+
+.footer-section-logo-content-six {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    gap: 7px;
+}
+
+.footer-section-logo-content-six-icons {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.footer-section-logo-content-six-icons i {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
+.footer-section-logo-content2 {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #3d69b0;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+.footer-section-logo-content2-first {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.footer-section-logo-content2-first-headings {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: 'SST Light';
+    align-items: flex-start;
+    justify-content: center;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.footer-section-logo-content2-first img {
+    width: 100px;
+    height: 100px;
+}
+
+/* Default styles for larger screens */
+
+  
+  /* Media query for screens with a maximum width of 768px */
+  @media only screen and (max-width: 768px) {
+    .footer-section-logo-content,
+    .footer-section-logo-content2 {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .footer-section-logo-content-left,
+    .footer-section-logo-content-right {
+      width: 100%;
+    }
+  
+    .footer-section-logo-content-one,
+    .footer-section-logo-content-two,
+    .footer-section-logo-content-three,
+    .footer-section-logo-content-four,
+    .footer-section-logo-content-five,
+    .footer-section-logo-content-six {
+      margin-bottom: 20px;
+    }
+  
+    .footer-section-logo-content-six-icons {
+      display: flex;
+      justify-content: center;
+    }
+  
+    .footer-section-logo-content-six-icons div {
+      margin: 0 10px;
+    }
+  }
+  
+  /* Additional media queries for other screen sizes if needed */
+  /* For example:
+  @media only screen and (max-width: 480px) {
+    /* Add specific styles for smaller screens */
+  /*}
+  */
+  

@@ -1,0 +1,49 @@
+.btn_blue {
+    background-color: #0070cb;
+    color: white;
+    border-radius: 14px;
+    border: none;
+    outline: none;
+    padding: 10px 14px;
+    font-size: 16px;
+    font-family: 'SST';
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.btn_blue:hover {
+    background-color: #034f8d;
+    box-shadow: 0 0 0 4px #ffffff,
+        /* White gap shadow */
+        0 0 0 6px #004d99;
+}
+
+@media (min-width: 576px) {
+    /* Small devices (576px and up) */
+    .expand-lg {
+      flex-direction: row;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    /* Medium devices (768px and up) */
+    .expand-lg {
+      flex-direction: row;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    /* Large devices (992px and up) */
+    .expand-lg {
+      flex-direction: row;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    /* Extra large devices (1200px and up) */
+    .expand-lg {
+      flex-direction: row;
+    }
+  }
+  

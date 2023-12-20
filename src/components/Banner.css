@@ -1,0 +1,66 @@
+.dark-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 40%;
+    left: 0;
+    /* background-image: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2)); */
+    /* background-color: black; */
+}
+.content-overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    position: absolute;
+    z-index: 1;
+    gap: 20px;
+    top: 60px;
+    left: 10px;
+    padding-left: 35px;
+}
+
+.content-overlay-heading {
+    color: rgb(238, 235, 235);
+    font-family: 'SST Light2';
+    font-size: 35px;
+    margin-left: 40px;
+    /* margin-top: 70px; */
+}
+
+.content-overlay-para {
+    color: rgb(230, 221, 221);
+    /* width: 39%; */
+    font-family: 'SST Light';
+    font-size: 16px;
+    line-height: 25px;
+    margin-left: 50px;
+
+}
+.content-overlay-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    /* margin-top: 5px; */
+}
+
+.btn_blue {
+    background-color: #eff1f3;
+    color: white;
+    border-radius: 14px;
+    border: none;
+    outline: none;
+    padding: 10px 14px;
+    font-size: 16px;
+    font-family: 'SST';
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+}
+.btn_blue:hover {
+    background-color: #d7e0e7;
+    box-shadow: 0 0 0 4px #ffffff,
+        /* White gap shadow */
+        0 0 0 6px #3e75ac;
+}   
